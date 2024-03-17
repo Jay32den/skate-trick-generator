@@ -7,16 +7,26 @@
     <title>FingerBoard Trick Generator</title>
 </head>
 <body>
+    <div id="header">
     <h1>Trick Generator</h1>
+    </div>
 <!-- FLATGROUND TRICKS -->
+<div class="buttons">
     <div id="flatGround"></div>
-    <button onclick="gentext();">Flat Ground</button>
+    <button onclick="gentext();">
+        <div name="text1">Flat Ground </div>
+    </button>
 <!-- LEDGE TRICKS -->
     <div id="ledgeTrick"></div>
     <button onclick="genledge();">Ledge</button>
 <!-- RAIL TRICKS -->
     <div id="railTrick"></div>
     <button onclick="genrail();">Rail</button>
+<!-- TRICK OUT -->
+    <div id="trickOut"></div>
+    <button onclick="genTrickOut();">Trick Out</button>
+    </div>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
