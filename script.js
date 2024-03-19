@@ -3,6 +3,8 @@ var ledge = document.getElementById('ledgeTrick');
 var rail = document.getElementById('railTrick');
 var outTrick = document.getElementById('trickOut');
 
+
+
 function gentext() {
     var flattrick = ['kickflip', 'heelflip', 'treflip', 'ollie'];
     showText(trick, flattrick);
@@ -32,8 +34,8 @@ function showText(element, tricks) {
     // Append the div to the body
     document.body.appendChild(centeredText);
 
-    // Remove the div after 1 seconds (adjust as needed)
+    // Remove the div after 3 seconds (adjust as needed)
     setTimeout(function () {
         centeredText.remove();
-    }, 1000);
+    }, 3000);
 }
