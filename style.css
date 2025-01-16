@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 #centeredText {
@@ -53,7 +52,7 @@
 
 button:focus-visible {
     outline-offset: calc(-1*var(--border));
-    outline: var(--border) solid #000c;
+    outline: var(--border) solid rgba(134, 28, 28, 0.8);
     clip-path: none;
     background-size: 0 0;
 }

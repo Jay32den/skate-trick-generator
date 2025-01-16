@@ -35,7 +35,9 @@ function showText(element, tricks) {
     document.body.appendChild(centeredText);
 
     // Remove the div after 3 seconds (adjust as needed)
-    setTimeout(function () {
+    setTimeout(function (showText) {
         centeredText.remove();
     }, 3000);
 }
+
+
